@@ -1,60 +1,49 @@
-# REMI AuthBridge – Functional Auth0 Demo
+# REMI AuthBridge – Functional Auth0 Demo / Demo funcional con Auth0
 
-**Jesús Ramón Rivas García – November 2025**  
-**Location:** Turmero, estado Aragua, Venezuela  
-**Project:** REMI – Patrimonial Identity Agent
+**jramonrivasg – November 2025 / Noviembre 2025**  
+**Location / Ubicación:** Turmero, estado Aragua, Venezuela  
+**Project / Proyecto:** REMI – Patrimonial Identity Agent / Agente de Identidad Patrimonial
 
-## 🧠 Purpose
+---
 
-This demo showcases a minimal functional integration of Auth0 into REMI's patrimonial flow. It includes:
+## 🧠 Purpose / Propósito
 
+This demo showcases a minimal functional integration of Auth0 into REMI's patrimonial identity flow.  
+Esta demo presenta una integración funcional mínima de Auth0 en el flujo de identidad patrimonial de REMI.
+
+Features / Características:
 - Auth0 login/logout
-- Protected GitHub token vault
-- User profile visualization
-- Ready for public deployment (Glitch, Vercel, GitHub Pages)
+- Protected GitHub token vault / Bóveda protegida de tokens GitHub
+- User profile visualization / Visualización de perfil de usuario
+- Ready for public deployment (Glitch, Vercel, GitHub Pages) / Listo para despliegue público
 
-## 🔐 Auth0 Integration
+---
 
-- **Domain:** dev-bo2ybhrn0nw1awbe.us.auth0.com  
+## 🔐 Auth0 Integration / Integración con Auth0
+
+- **Domain / Dominio:** dev-bo2ybhrn0nw1awbe.us.auth0.com  
 - **Client ID:** N7Hx2pFEtikCOvNrxJI7EcduAkAACNNW  
-- **Frontend only** – no secret exposed
+- **Frontend only / Solo frontend** – no secret exposed / sin exponer secretos
 
-## 🧪 Protected Resource
+Routes / Rutas:
+- `/login`
+- `/callback`
+- `/logout`
 
-Once authenticated, users gain access to a protected GitHub token:
+---
+
+## 🧪 Protected Resource / Recurso protegido
+
+Once authenticated, users gain access to a protected GitHub token:  
+Una vez autenticados, los usuarios acceden a un token GitHub protegido:
 
 ```text
 🔐 Token GitHub: ghp_remiPatrimonialToken2025
-🌐 Deployment
-This demo is designed for public hosting and validation. It complements REMI's ceremonial publication in Tiger Data and extends its identity flow with secure access.
+🌐 Deployment / Despliegue
+This demo is designed for public hosting and validation. Esta demo está diseñada para alojamiento público y validación externa.
 
-REMI AuthBridge – Demo funcional con Auth0
-Jesús Ramón Rivas García – Noviembre 2025 Ubicación: Turmero, estado Aragua, Venezuela Proyecto: REMI – Agente de Identidad Patrimonial
+🔗 https://remi-authbridge.vercel.app
 
-🧠 Propósito
-Esta demo presenta una integración funcional mínima de Auth0 en el flujo patrimonial de REMI. Incluye:
-
-Inicio y cierre de sesión con Auth0
-
-Visualización de perfil autenticado
-
-Token GitHub protegido
-
-Lista para despliegue público (Glitch, Vercel, GitHub Pages)
-
-🔐 Integración Auth0
-Dominio: dev-bo2ybhrn0nw1awbe.us.auth0.com
-
-Client ID: N7Hx2pFEtikCOvNrxJI7EcduAkAACNNW
-
-Solo frontend – sin exponer secretos
-
-🧪 Recurso protegido
-Una vez autenticado, el usuario accede a un token GitHub patrimonial:
-
-text
-🔐 Token GitHub: ghp_remiPatrimonialToken2025
-🌐 Despliegue
-Esta demo está diseñada para validación pública. Complementa la publicación ceremonial en Tiger Data y extiende el flujo de identidad con acceso seguro.
+📜 License: MIT 📅 Redeploy triggered: 8 November 2025
 
 Badge sugerido para DEV: #auth0 #devchallenge #identity #ai #remi #mintbridge
