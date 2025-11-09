@@ -1,49 +1,63 @@
-# REMI AuthBridge – Functional Auth0 Demo / Demo funcional con Auth0
+# REMI AuthBridge: Patrimonial Identity Demo with Auth0 Integration
 
-**jramonrivasg – November 2025 / Noviembre 2025**  
-**Location / Ubicación:** Turmero, estado Aragua, Venezuela  
-**Project / Proyecto:** REMI – Patrimonial Identity Agent / Agente de Identidad Patrimonial
-
----
-
-## 🧠 Purpose / Propósito
-
-This demo showcases a minimal functional integration of Auth0 into REMI's patrimonial identity flow.  
-Esta demo presenta una integración funcional mínima de Auth0 en el flujo de identidad patrimonial de REMI.
-
-Features / Características:
-- Auth0 login/logout
-- Protected GitHub token vault / Bóveda protegida de tokens GitHub
-- User profile visualization / Visualización de perfil de usuario
-- Ready for public deployment (Glitch, Vercel, GitHub Pages) / Listo para despliegue público
+**jramonrivasg – November 2025**  
+**Location:** Turmero, Aragua, Venezuela  
+**Project:** REMI – Patrimonial Identity Agent
 
 ---
 
-## 🔐 Auth0 Integration / Integración con Auth0
+## 🧠 Purpose
 
-- **Domain / Dominio:** dev-bo2ybhrn0nw1awbe.us.auth0.com  
-- **Client ID:** N7Hx2pFEtikCOvNrxJI7EcduAkAACNNW  
-- **Frontend only / Solo frontend** – no secret exposed / sin exponer secretos
-
-Routes / Rutas:
-- `/login`
-- `/callback`
-- `/logout`
+This demo showcases a fully orchestrated patrimonial identity architecture using Auth0, simulated Postgres, and multi-agent flows.
 
 ---
 
-## 🧪 Protected Resource / Recurso protegido
+## 🔐 Auth0 Integration
 
-Once authenticated, users gain access to a protected GitHub token:  
-Una vez autenticados, los usuarios acceden a un token GitHub protegido:
+- Domain: `dev-bo2ybhrn0nw1awbe.us.auth0.com`  
+- Client ID: `N7Hx2pFEtikCOvNrxJI7EcduAkAACNNW`  
+- Frontend only – no secrets exposed
 
-```text
-🔐 Token GitHub: ghp_remiPatrimonialToken2025
-🌐 Deployment / Despliegue
-This demo is designed for public hosting and validation. Esta demo está diseñada para alojamiento público y validación externa.
+---
 
-🔗 https://remi-authbridge.vercel.app
+## 🧪 Protected Resource
 
-📜 License: MIT 📅 Redeploy triggered: 8 November 2025
+- GitHub Token: `ghp_remiPatrimonialToken2025`
+- Access to patrimonial memory and forks
 
-Badge sugerido para DEV: #auth0 #devchallenge #identity #ai #remi #mintbridge
+---
+
+## 🧠 Agentic Components
+
+- PostgresSender, TablaPatrimonial, ForkViewer, ForkZeroViewer
+- AuditoriaViewer, FlujoTemporalViewer, OrquestadorRemi
+- InteraccionExternaViewer, ValidacionCruzadaViewer
+- NarrativaExportador, ExportadorJSONViewer
+- ArchivadorRemi, CeremonialRemi, ReplicadorRemi
+
+---
+
+## 📦 Deployment
+
+- Live Demo: [Vercel](https://remi-authbridge.vercel.app)
+- GitHub Repo: [remi-authbridge](https://github.com/Jramone3/remi-authbridge)
+
+---
+
+## 🤝 Future Contributions
+
+We welcome collaborators interested in:
+
+- Connecting to real Postgres (Supabase, Tiger Cloud)
+- Semantic search and advanced filters
+- Expanding ceremonial narrative
+- Translating the interface
+
+---
+
+## 📜 License
+
+MIT – Open, replicable, auditable patrimonial architecture
+
+
+
