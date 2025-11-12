@@ -54,4 +54,9 @@ REMI AuthBridge is a patrimonial initiative to consolidate auditable technical a
 
 🔗 [Patreon – jramonrivasg](https://www.patreon.com/jramonrivasg)
 
+---
+📖 Read this in other languages:
+- [Español (README_ES.md)](README_ES.md)
+---
+
 Your support helps expand the architecture, strengthen documentation, and sustain the legacy.
