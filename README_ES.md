@@ -57,4 +57,8 @@ REMI AuthBridge es una iniciativa patrimonial que busca consolidar agentes técn
 
 🔗 [Patreon – jramonrivasg](https://www.patreon.com/jramonrivasg)
 
+---
+📜 Notas de lanzamiento
+- [v1.0-patrimonial](docs/RELEASE_NOTES.md)
+---
 Tu contribución ayuda a expandir la arquitectura, fortalecer la documentación y mantener la transparencia del legado.
