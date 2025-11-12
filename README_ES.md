@@ -5,6 +5,9 @@
 **Proyecto:** REMI – Agente de Identidad Patrimonial
 
 ---
+📖 Leer en otros idiomas:
+- [English (README.md)](README.md)
+---
 
 ## 🧠 Propósito
 
