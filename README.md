@@ -59,5 +59,18 @@ We welcome collaborators interested in:
 
 MIT – Open, replicable, auditable patrimonial architecture
 
+Badge sugerido para DEV: #auth0 #devchallenge #identity #ai #remi #mintbridge
 
+---
 
+## 🧠 Postgres como núcleo agentico
+
+REMI ahora incluye una simulación funcional de persistencia patrimonial con Postgres.  
+Este flujo incorpora:
+
+- API `/api/patrimonio` para registrar tokens, agentes y fechas
+- Componente `PostgresSender` para enviar datos desde el frontend
+- Componente `TablaPatrimonial` para visualizar la memoria patrimonial
+- Diálogo entre agentes (`REMI`, `REMI_Auditor`) para validar acciones
+
+Este enfoque representa una arquitectura multi-agente patrimonial con persistencia simulada, alineada con los principios del Agentic Postgres Challenge. 
